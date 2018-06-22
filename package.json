@@ -1,7 +1,8 @@
 {
 	"name": "changelog-updater",
 	"version": "1.1.0",
-	"description": "Update [Unreleased] in CHANGELOG.md to current package version.",
+	"description":
+		"Update [Unreleased] in CHANGELOG.md to current package version.",
 	"main": "lib/index.js",
 	"bin": {
 		"changelog-updater": "./bin/changelog-updater.js"
@@ -12,7 +13,8 @@
 		"test": "jest",
 		"test:watch": "npm test -- --watch",
 		"test:coverage": "npm test -- --coverage",
-		"test:coveralls": "npm run test:coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
+		"test:coveralls":
+			"npm run test:coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
 		"travis": "npm run test:coveralls && npm run lint",
 		"lint": "npm run prettier && eslint .",
 		"prettier": "prettier --write '**/*.js'",
@@ -20,9 +22,10 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/nikolajevp/changelog-updater.git"
+		"url": "https://github.com/YellEngineering/changelog-updater.git"
 	},
 	"author": "Pavel Nikolajev",
+	"contributors": ["Steve Workman"],
 	"license": "MIT",
 	"dependencies": {},
 	"devDependencies": {
