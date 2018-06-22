@@ -6,6 +6,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [1.2.0] (2018-06-22)
+
 ### Added
 - Support for Redmine
 - Added optional parameters for filename
@@ -26,6 +28,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Added
 - Initial commit
 
-[Unreleased]: https://github.com/nikolajevp/changelog-updater/compare/v1.1.0...HEAD
+[Unreleased]: https://github.com/nikolajevp/changelog-updater/compare/v1.2.0...HEAD
+[1.2.0]: https://github.com/nikolajevp/changelog-updater/compare/v1.1.0...v1.2.0
 [1.1.0]: https://github.com/nikolajevp/changelog-updater/compare/v1.0.0...v1.1.0
 [1.0.0]: https://github.com/nikolajevp/changelog-updater/compare/v0.1.0...v1.0.0
